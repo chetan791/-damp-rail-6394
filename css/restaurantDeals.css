@@ -1,0 +1,307 @@
+body{
+    margin: 0;
+    background-color: #c6d4d9;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+#navBarTop{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    align-items: center;
+    background-color: #f1f1f1;
+    height: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#navBarTop > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 30px;
+}
+#selectLocation{
+    border-radius: 20px;
+    padding: 0 20px 0 20px;
+    height: 20px;
+    font-size: small;
+}
+
+#navBarTop > div > a{
+    text-decoration: none;
+    color: #471aa0;
+}
+
+#topBottom a{
+    text-decoration: none;
+    color: #471aa0;
+}
+#navBarTop > div :nth-child(2){
+    border-left: 1px grey solid;
+    border-right: 1px grey solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#navBarTop > div :nth-child(3){
+    border-right: 1px grey solid;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+#navBarTop > div p{
+    margin-top: 10px;
+}
+
+#navBarTop > :nth-child(2) >:nth-child(1){
+    color: #471aa0;
+    
+}
+
+#cartbtn{
+    font-size: xx-large;
+    padding-top: 15px;
+}
+#topBottom{
+display: flex;
+padding-left: 15%;
+padding-right: 15%;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px grey solid;
+background-color: white;
+}
+
+#topBottom > :nth-child(1) img{
+    height: 50px;
+    width: 100px;
+}
+
+/* #topBottom > :nth-child(2){
+    
+} */
+#topBottom > :nth-child(2)> input {
+    height: 40px;
+    /* margin:0; */
+    /* border: solid; */
+    width: 450px;
+    border: radius 3px;
+}       
+
+#topBottom > :nth-child(2)> button{
+    height: 40px;
+    border: none;
+    /* margin: 0; */
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #471aa0;
+    color: white;
+    
+}
+
+#topBottom > :nth-child(2)> button:hover{
+box-shadow: rgba(89, 7, 197, 0.35) 0px 5px 15px;
+}
+
+
+
+/* middle part */
+#container{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex; 
+    flex-direction: column;
+    gap: 20px; 
+
+}
+
+#container > #left{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+#container > #left > div{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#coupon_div > .col> .COSTOMIZATION_ON_CARD{
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+}
+
+#alloffer{
+    display: block;
+    margin: auto;
+    background-color: #9babb2;
+    padding: 5px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 40px;
+    color: grey;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-size: medium;
+    
+}
+
+#container  button{
+    display: block;
+    margin: auto;
+    width: 100%;
+    background-color: #471aa0;
+    padding: 5px;
+    font-size: medium;
+    color: white;
+    border: none;
+}
+
+#backHome{
+    margin-left:15%;
+    padding: 5px;
+    background-color: #471aa0;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: none;
+}
+
+
+
+
+  /* #topBottom > :nth-child(2){
+            
+        } */
+        #topBottom > :nth-child(2)> input {
+            height: 40px;
+            /* margin:0; */
+            /* border: solid; */
+            width: 450px;
+            border: radius 3px;
+        }       
+
+        #topBottom > :nth-child(2)> button{
+            height: 40px;
+            /* border: solid; */
+            /* margin: 0; */
+            border-radius: 3px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: #471aa0;
+            color: white;
+            
+        }
+
+        #topBottom > :nth-child(2)> button:hover{
+        box-shadow: rgba(89, 7, 197, 0.35) 0px 5px 15px;
+        }
+
+        #carouselExampleInterval,#carousel_2,#carousel_3,#carousel_4,#carousel_5,#carousel_6{
+            z-index: -1;
+        }
+
+
+
+
+
+
+
+        /* bottom upper  section */
+        #bottom1{
+            display: flex;
+            align-items: center;
+            padding-left: 15%;
+            padding-right: 15%;
+            background-color: #333333;
+            color: #c5c5c5;
+            justify-content: space-between;
+            padding-bottom: 60px;
+            padding-top: 40px;
+        }
+        #bottom1 > :nth-child(1){
+             width: 90%;
+        }
+
+        #bottom1 > :nth-child(1) > :nth-child(2){
+            font-size: small;
+        }
+        #bottom1 > :nth-child(2){
+            font-size: 22px;
+            
+        }
+
+        /* bottom lower  left */
+        #bottom2{
+            display: flex;
+            padding-left: 15%;
+            padding-right: 15%;
+            background-color: black;
+            color: white;
+
+        }  
+        #bottom2 > #left{
+            display: flex;
+            width: 50%;
+            /* border: solid; */
+            
+            
+        }   
+        #bottom2 > #left  ul{
+            padding-left: 0%;
+            /* border: solid; */
+        }  
+        #bottom2 > #left  >:nth-child(2)> ul{
+            border-right: 1px grey solid;
+            padding-bottom: 10px;
+        }
+        #bottom2 > #left >div {
+            width: 50%;
+            text-align: left;
+            /* border: solid; */
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+
+ /* bottom lower  right */
+        #bottom2 > #right{
+            padding-top: 20px;
+            /* border: solid; */
+            padding-left: 7%;
+        }
+        #bottom2 > #right >div >:nth-child(1){
+            width: 130px;
+            height: 50px;
+            /* border: solid; */
+            
+            
+        }
+        #bottom2 > #right  div{
+            display: flex;
+            gap: 40px;
+            /* border: solid; */
+            margin-bottom: 50px;
+        }
+        #bottom2 ~ p{
+            padding-left: 15%;
+            background-color: black;
+            color: #333333;
+            margin: 0%;
+            padding-bottom: 10px;
+        }

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Deals</title>
+    <script src="https://kit.fontawesome.com/87c3b4a7a2.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/nightDeals.css">
+    
+</head>
+<body>
+        <!-- top  -->
+        <div id="nav">
+
+            <!--navigation upper part -->
+            <div id="navBarTop">
+            <div>
+                <p><i class="fa-solid fa-location-dot"></i>Select Location</p>
+                <select name="location" id="selectLocation">
+                    <option value="New Delhi">New Delhi</option>
+                </select>
+            </div>
+            <div >
+                <p>We're hiring!</p>
+                <p>How it Works</p>
+                <p>List your Business</p>
+                <a id="logout" href="/login page.html"><p id="loginsucess"><i class="fa-duotone fa-lock-keyhole"></i>Login / Sign Up</p></a>
+            </div>
+        </div>
+        <!-- navigation botton part -->
+    
+        <div id="topBottom">
+            <div>
+                <!-- <a href="/index.html"><img src="/asset/buynear-logo.png" alt=""></a> -->
+                <a href="/index.html"><button id="backHome">&#8592 HOME</button></a>
+            </div>
+            <div>
+                <input type="search" placeholder="Search restaurants, spa, events">
+                <button>SEARCH</button>
+            </div>
+            <div>
+                <a href="/cart.html"><p id="cartbtn">
+                  <i class="fa-solid fa-cart-shopping"></i>
+              </p></a>
+              </div>
+        </div>
+        </div>
+
+        <!-- main -->
+        <div id="container">
+
+            <div id="left">
+                <div>
+                    <h3>Filter</h3>
+                    
+                            <input type="checkbox" id="asc" >
+                            <label for="asc">Price Low to High</label>
+                       
+                            <input type="checkbox" id="desc" >
+                            <label for="desc">Price High to Low</label>
+                   
+                </div>
+                <div>
+                    <h3>Location</h3>
+                    
+                            <input type="checkbox" id="Connaught_Place" >
+                            <label for="Connaught_Place">Connaught Place</label>
+                   
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="coupon_div">
+                <!-- <div class="col"> -->
+                  <!-- <div class="card h-100 COSTOMIZATION_ON_CARD">
+
+                    <img src="https://img4.nbstatic.in/tr:w-350/60f151811e2731000b81c69c.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">COUNTRY INN & SUITES BY RADISSON</h5>
+                      <p class="card-text">sahibabad</p>
+                      <div>
+                        <span class="badge bg-primary">Recommended</span>
+                        <span>1+1 on Buffets</span>
+                      </div>
+                      <p>Starts a ₹1199 for 2 people</p>
+                    </div>
+
+                    <div class="card-footer">
+                      <small class="text-muted">33,059 Bought</small>
+                    </div>
+                  </div>
+                </div> -->
+              </div>
+
+        </div>
+
+         <!-- VIEW ALL OFFER -->
+         <button id="alloffer"> VIEW ALL OFFER</button>
+    
+
+
+            <!-- bottom section -->
+    <!-- bottom upper -->
+    <div id="bottom1">
+        <div>
+            <p><b>Amazing offers available on nearbuy</b></p>
+            <p>nearbuy helps you discover the best things to do, eat and buy – wherever you are! Make every day awesome with nearbuy. Dine at the finest restaurants, relax at the best spas, pamper yourself with exciting wellness and shopping offers or just explore your city intimately… you will always find a lot more to do with nearbuy. From tattoo parlors to music concerts, movie tickets to theme parks, everything you want is now within reach. Don't stop yet! Take it wherever you go with the nearbuy mobile app. Based on your location and preference, our smart search engine will suggest new things to explore every time you open the app. What's more, with offers on everything around you... you are sure to try something new every time.</p>
+        </div>
+        <div>
+            <p><b>Follow us</b></p>
+            <p><i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </p>
+        </div>
+    </div>
+
+<!-- bottom lower -->
+    <div id="bottom2">
+
+        <!-- left part -->
+        <div id="left">
+            <div>
+                <ul>
+                    <p><b>Company</b></p>
+                    <p>About Us</p>
+                    <p>Blog</p>
+                    <p>Policy</p>
+                    <p>Universal Fine Print</p>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <p><b>Help</b></p>
+                    <p>Contact Us</p>
+                    <p>Sitemap</p>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- right part -->
+        <div id="right">
+            <p><b>Download app</b></p>
+            <div>
+                
+                    <img src="https://res4.nbstatic.in/static/images/google-play-badges.svg" alt="">
+                    <img src="https://res4.nbstatic.in/static/images/app-store.svg" alt="">
+                
+            </div>
+            <p>Customer Care: +91-7303390416 - 11 AM to 8 PM (MON - SUN)</p>
+        </div>
+    </div>
+    <p>Copyright © nearbuy.com India Private Limited. All rights reserved.</p>
+        <p>v 3.0.0</p>
+
+</body>
+<script src="/js/NightDeals.js"></script>
+</html>
